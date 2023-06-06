@@ -1,0 +1,39 @@
+public class PrimitiveDataTypeDemo {
+  public void printBasicDataType(){
+    string batchName='Batch 15';
+    integer totalCandidates=54;
+    boolean isAdminCompleted= true;
+
+    string batchDescription=batchName+' has '+totalCandidates+' candidates, and is the best';
+    system.debug(batchDescription);
+  }
+  public void print2(){
+    Decimal d1=788.4564;
+    system.debug('d1 is '+d1);
+    Long l1=74756789L;
+    system.debug(l1);
+    Double dd1=99876789655.64;
+    system.debug('dd1 '+ dd1);
+    id aacID= '0013x00002RfRdAAAV';
+    system.debug(aacID);
+
+    object obj1=99;
+    object obj2='assign string to object';
+    object obj3= true;
+    object obj4= l1;
+    object obj5= aacID;
+    system.debug(obj1);
+    system.debug(obj2);
+    system.debug(obj3);
+    system.debug(obj4);
+    system.debug(obj5);
+    
+
+  }
+  public void printNewDate(){
+    system.debug()
+  }
+
+}
+
+//all datatypes are INHERITED from object
