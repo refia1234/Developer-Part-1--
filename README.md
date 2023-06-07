@@ -1,5 +1,5 @@
-# Batch 16 daily session project
- We learn apex using this project
+# Batch 16 Developer 1 project
+ We have all classes, trigger, code, etc that we learned in last 10 weeks.
  
 
 # Salesforce DX Project: Next Steps
