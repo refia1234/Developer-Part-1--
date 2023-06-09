@@ -11,3 +11,8 @@ DeleteOppBatch doo = new DeleteOppBatch();
 database.executeBatch(doo, 2);
 
 
+BatchClassMail bcm = new BatchClassMail();
+database.executeBatch(bcm,4);
+
+
+
