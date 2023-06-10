@@ -79,8 +79,7 @@ public class AccountTriggerHandler {
         //for delete addError is allowed in trigger.old ONLY
 
         for (account oldAcc : accTriggerOld) {
-            if (oldAcc.active__c  == 'Yes') {
-                oldAcc.addError('Cannot delete active account.');
+            if (oldAcc.active__c  == 'Yes') { oldAcc.addError('Cannot delete active account.');
             }
         }
    }
